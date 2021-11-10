@@ -44,7 +44,7 @@ async def save_group(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
-            caption=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
+            caption=f"<b>𝚃ꫝꪖꪀ𝘬 ꪗꪮ𝘶 𝖋ꪮ𝘳 ꪖ𝘥𝘥𝘪ꪀᧁ ꪑꫀ 𝘪ꪀ {message.chat.title} ❣️\n\n𝘐ᠻ ꪗꪮ𝘶 ꫝꪖꪜꫀ ꪖꪀꪗ 𝘲𝑢ꫀ𝘴𝑡𝑖ꪮꪀ𝘴 & 𝑑ꪮ𝑢𝑏𝑡𝘴 𝑖ꪀ ꪗꪮ𝑢𝘴𝑖ꪀᧁ ꪑꫀ ᥴꪮꪀ𝑡ꪖᥴ𝑡 𝑆ꪊρρꪮ𝘳𝑡 ❕\n\n©ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙ𝚢\n    <a href='https://t.me/peace_fighter_TG'>»»»»𝙿𝚎𝙰𝚌𝙴-𝙵𝚒𝙶𝚑𝚃𝚎𝚁-𝚃𝙶</a></b>",
             reply_markup=reply_markup)
     else:
         for u in message.new_chat_members:
